@@ -1,7 +1,7 @@
 module.exports = {
   "branches": [
     {name: 'master'}, // `channel` is undefined so the default distribution channel will be used
-    {name: 'next', channel: 'channel-next'}, // `channel` is built with the template `channel-${name}`
+    {name: 'beta', channel: 'channel-beta'}, // `channel` is built with the template `channel-${name}`
   ],
   "plugins": [
     '@semantic-release/commit-analyzer', 
