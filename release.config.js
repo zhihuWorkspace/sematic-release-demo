@@ -11,14 +11,15 @@ module.exports = {
     ["@semantic-release/npm", {
       "npmPublish": false,
     }],
-    // [
-    //   "@semantic-release/changelog",
-    //   {
-    //     "changelogFile": "docs/CHANGELOG.md"
-    //   }
-    // ],
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "docs/CHANGELOG.md"
+      }
+    ],
+    '@semantic-release/github',
     ['@semantic-release/git', {
-      // "assets": [],
+      "assets": [],
       "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
     }]
   ]
