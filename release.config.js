@@ -18,7 +18,7 @@ module.exports = {
     //   }
     // ],
     ['@semantic-release/git', {
-      "assets": [],
+      // "assets": [],
       "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
     }]
   ]
