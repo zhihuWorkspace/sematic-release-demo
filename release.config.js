@@ -2,7 +2,7 @@ module.exports = {
   tagFormat: 'v${version}',
   "branches": [
     {name: 'master'},
-    {name: 'beta', channel: 'beta', prerelease: 'beta'},
+    // {name: 'beta', channel: 'beta', prerelease: 'beta'},
   ],
   "plugins": [
     '@semantic-release/commit-analyzer', 
