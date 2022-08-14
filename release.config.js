@@ -10,7 +10,7 @@ module.exports = {
     ["@semantic-release/npm", {
       "npmPublish": false,
     }],
-    // '@semantic-release/github',
+    '@semantic-release/github',
     ['@semantic-release/git', {
       "assets": [],
       "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
